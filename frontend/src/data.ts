@@ -8,7 +8,7 @@ export const sample_foods:Food[]=[
         tags: ['fast food', 'pizza', 'breakfast'],
         favorite: false,
         stars: 4.0,
-        imageUrl: 'asset/',
+        imageUrl: 'assets/doughnut.jpeg',
         origins: ['Italy'],
         cookTime: '50-60',
     },{
@@ -18,7 +18,7 @@ export const sample_foods:Food[]=[
         tags: ['fast food', 'pizza', 'breakfast','lunch'],
         favorite: false,
         stars: 3.5,
-        imageUrl: 'asset/',
+        imageUrl: 'assets/cheeseburger.jpeg',
         origins: ['Italy'],
         cookTime: '50-60',
     },{
@@ -28,7 +28,7 @@ export const sample_foods:Food[]=[
         tags: ['fast food', 'pizza', 'Dinner'],
         favorite: false,
         stars: 4.2,
-        imageUrl: 'asset/',
+        imageUrl: 'assets/pizza.jpeg',
         origins: ['USA'],
         cookTime: '50-60',
     },{
@@ -38,17 +38,17 @@ export const sample_foods:Food[]=[
         tags: ['fast food', 'Chips', 'lunch'],
         favorite: false,
         stars: 4.0,
-        imageUrl: 'asset/',
+        imageUrl: 'assets/fries.jpeg',
         origins: ['USA'],
         cookTime: '50-60',
     },{
         id: '5',
-        name: 'Ugali',
+        name: 'meat',
         price: 3000,
         tags: ['slow food','lunch','Dinner'],
         favorite: false,
         stars: 4.0,
-        imageUrl: 'asset/',
+        imageUrl: 'assets/meat.jpeg',
         origins: ['Italy'],
         cookTime: '50-60',
     },{
@@ -58,7 +58,7 @@ export const sample_foods:Food[]=[
         tags: ['fast food','breakfast'],
         favorite: false,
         stars: 4.0,
-        imageUrl: 'asset/',
+        imageUrl: 'assets/soup.jpeg',
         origins: ['Italy'],
         cookTime: '50-60',
     }
