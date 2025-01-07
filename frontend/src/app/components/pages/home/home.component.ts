@@ -1,10 +1,13 @@
 import {Component, OnInit} from '@angular/core';
 import {FoodService} from "../../../services/food.service";
 import {Food} from "../../../shared/models/food";
+import {RouterLink} from "@angular/router";
 
 @Component({
   selector: 'app-home',
-  imports: [],
+    imports: [
+        RouterLink
+    ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'
 })
