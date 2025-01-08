@@ -3,7 +3,6 @@ import {FoodService} from "../../../services/food.service";
 import {Food} from "../../../shared/models/food";
 import {RouterLink} from "@angular/router";
 import {NgOptimizedImage} from "@angular/common";
-
 @Component({
   selector: 'app-home',
     imports: [
